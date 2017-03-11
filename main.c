@@ -40,6 +40,9 @@ int main(int argc, char **argv)
                     printf("QUIT");
                     break;
                 }
+
+                if (xbox->stk_LeftX > 100)
+                {printf("Pressing left!");}
                 //printXboxCtrlValues(xbox);}
             }
 
