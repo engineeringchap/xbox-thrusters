@@ -9,7 +9,7 @@
 
 int main(int argc, char **argv)
 {
-    printf("Initializing... Poop\n\n");
+    printf("Initializing... NotPoop\n\n");
 
     int n=0;
     if (initXboxContoller(XBOX_DEVICE) >= 0)
