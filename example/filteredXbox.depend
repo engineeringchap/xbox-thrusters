@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1486759405 source:/home/alex/Documents/scrap/xbox/xboxController.c
+	"xboxController.h"
+
+1486755459 /home/alex/Documents/scrap/xbox/xboxController.h
+	<stdlib.h>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+	<linux/joystick.h>
+
+1486764878 source:/home/alex/Documents/scrap/xbox/main.c
+	<stdlib.h>
+	"xboxController.h"
+
+1486759405 source:/home/alex/Documents/xbox/xboxController.c
+	"xboxController.h"
+
+1486755459 /home/alex/Documents/xbox/xboxController.h
+	<stdlib.h>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+	<linux/joystick.h>
+
