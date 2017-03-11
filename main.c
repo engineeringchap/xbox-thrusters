@@ -42,6 +42,9 @@ int main(int argc, char **argv)
                 }
 
                 if (xbox->stk_LeftX > 100)
+                {printf("Pressing right!");}
+
+                if (xbox->stk_LeftX < -100)
                 {printf("Pressing left!");}
                 //printXboxCtrlValues(xbox);}
             }
